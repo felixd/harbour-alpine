@@ -12,6 +12,7 @@ RUN apk add --no-cache \
     mariadb-dev \
     postgresql-dev \
     sqlite-dev \
+    ncurses-dev \
     unixodbc-dev && \
     git clone --depth=1 https://github.com/harbour/core.git
 
